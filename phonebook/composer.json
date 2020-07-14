@@ -1,0 +1,25 @@
+{
+    "name": "axilweb/phonebook",
+    "description": "Demo package",
+    "authors": [
+        {
+            "name": "Ishmam Haque Ekaf",
+            "email": "ishmam.ekaf@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yajra/laravel-datatables": "^1.5"
+    },
+    "autoload": {
+        "App\\": "app/",
+        "psr-4": {"Axilweb\\Phonebook\\": "src/"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Axilweb\\Phonebook\\PhonebookServiceProvider"
+            ]
+        }
+    }
+}
