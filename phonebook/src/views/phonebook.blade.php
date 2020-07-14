@@ -10,7 +10,7 @@
 	    <div class="col-sm-12 py-3 " style="border: 1px solid #dee2e6;">
 	        <div class="row no-gutters mb-4">
 				<div class="col-12 px-2">
-					<h2>Phonebook Using Datatable</h2>
+					<h2>Phonebook</h2>
 				</div>
 			</div>
 			<div class="row no-gutters">
