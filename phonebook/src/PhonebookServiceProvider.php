@@ -38,6 +38,9 @@ class PhonebookServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../database/factories/' => database_path('factories')
         ], 'factories');
+        $this->publishes([
+            __DIR__.'/../database/model/' => app_path()
+        ], 'model');
         include __DIR__.'/routes.php';
     }
 }
